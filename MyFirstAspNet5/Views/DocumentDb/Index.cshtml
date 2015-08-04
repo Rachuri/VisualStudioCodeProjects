@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Documet Db Page";
+}
+@ViewData["Title"]<br/>
+    
+<table class="table table-condensed table-hover" id ="datalist">
+     <thead>
+         <th>Name</th>
+         <th>Content</th>
+         <th>Actions</th>         
+     </thead>
+     <tbody>
+         <tr>
+         <td>Rachuri</td>
+         <td>Sreedhar</td>
+         <td><a href="#" onclick="onEditClick();">Edit</a></td> 
+         </tr>
+            <tr>
+         <td>Rachuri</td>
+         <td>Sreedhar</td>
+         <td><a href="#" onclick="onEditClick();">Edit</a></td> 
+         </tr>
+          <tr>
+         <td>Rachuri</td>
+         <td>Sreedhar</td>
+         <td><a href="#">Edit</a></td> 
+         </tr>
+          <tr>
+         <td>Rachuri</td>
+         <td>Sreedhar</td>
+         <td><a href="#">Edit</a></td> 
+         </tr>
+          <tr>
+         <td>Rachuri</td>
+         <td>Sreedhar</td>
+         <td><a href="#">Edit</a></td> 
+         </tr>
+     </tbody>
+</table>
+
+    @section Scripts { 
+    <script>
+        $(function(){
+         
+            alert("hi Sir");          
+        });
+      
+      function onEditClick(){
+          alert("edit page");
+      }
+        </script>
+    }
